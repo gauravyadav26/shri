@@ -326,7 +326,7 @@ textarea{
     margin:0 calc(-1*(50vw - var(--width)/2 + var(--padding)));
     padding:var(--padding) calc(50vw - var(--width)/2 + var(--padding))
 }
-.topnews {
+.topn-b {
     text-align: center;
     background: var(--backg-dark);
     color: var(--backgd-text);
