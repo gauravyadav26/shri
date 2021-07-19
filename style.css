@@ -337,7 +337,7 @@ textarea{
 .site-branding{
     height:48px;
     float:left;
-    margin:24px 0 0
+    margin:0;
 }
 .site-title{
     display:none
@@ -529,8 +529,6 @@ a:active,a:hover{
     float:left;
     position:relative;
     padding:6px 0;
-}
-#site-navigation li+li{
     margin-left:20px;
 }
 .main-navigation ul ul{
@@ -556,7 +554,7 @@ a:active,a:hover{
 }
 .main-navigation a{
     display:block;
-    color:#222;
+    color:var(--backgd-text);
     font-size:16px;
     font-weight:600;
     text-transform:uppercase;
@@ -567,7 +565,7 @@ a:active,a:hover{
 .appnt {
     float: right;
     height: 48px;
-    margin: 24px 20px 0;
+    margin: 0 20px;
     padding: 4px;
     background: var(--main-color);
 }
