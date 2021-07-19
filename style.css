@@ -298,9 +298,6 @@ textarea{
 .gy-grid{
     display:grid
 }
-.site-header{
-    background:#fff;
-}
 .depth{
     box-shadow:rgb(22 31 39 / 42%) 0 60px 123px -25px, rgb(19 26 32 / 8%) 0 35px 75px -35px;
     border-radius:10px;
@@ -326,10 +323,14 @@ textarea{
     margin:0 calc(-1*(50vw - var(--width)/2 + var(--padding)));
     padding:var(--padding) calc(50vw - var(--width)/2 + var(--padding))
 }
-.topn-b, #site-navigation {
+.site-header {
     text-align: center;
     background: var(--backg-dark);
     color: var(--backgd-text);
+}
+.topn-b {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
 }
 .topnews div:first-child {
     display: none;
@@ -519,16 +520,17 @@ a{
 a:active,a:hover{
     outline:0;
 }
-.main-navigation ul{
-    display:block;
-    list-style:none;
-    margin:0;
-    padding-left:0
+.main-navigation ul {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 .main-navigation li{
-    float:left;
+    float:right;
     position:relative;
-    padding:6px 0;
+    padding:16px 0;
     margin-left:20px;
 }
 .main-navigation ul ul{
@@ -567,10 +569,10 @@ a:active,a:hover{
     height: 48px;
     margin: 0 20px;
     padding: 4px;
-    background: var(--main-color);
+    background: var(--backg-dark)
 }
 .appnt a {
-    color: #fff;
+    color: var(--backgd-text);
 }
 @media screen and (min-width:37.5em){
     
