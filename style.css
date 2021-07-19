@@ -338,7 +338,7 @@ textarea{
 .site-branding{
     height:48px;
     float:left;
-    margin:20px;
+    margin:20px 0;
 }
 .site-title{
     display:none
@@ -567,7 +567,7 @@ a:active,a:hover{
 .appnt {
     float: right;
     height: 48px;
-    margin: 20px;
+    margin: 20px 0;
     padding: 4px;
     background: var(--backg-dark)
 }
