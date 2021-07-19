@@ -475,7 +475,7 @@ textarea{
     .c-nrw,.container,.h-cont{
         max-width:var(--width)
     }
-    ,.entry-footer,.widget-area{
+    .entry-footer,.widget-area{
         padding-left:24px;
         padding-right:24px;
     }
