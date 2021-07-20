@@ -377,14 +377,14 @@ textarea{
     background:#fff
 }
 .site-footer{
-    background:var(--main-color);
+    background:var(--backg-dark);
     text-align:center;
     color:#eee;
     padding-top:20px;
     font-size:16px
 }
 .action-call{
-    background:var(--main-color);
+    background:var(--backg-dark);
     padding:10px
 }
 #grid-3{
@@ -447,7 +447,7 @@ textarea{
     grid-gap:16px
 }
 .site-footer .depth{
-    background:var(--main-color);
+    background:var(--backg-dark);
     border:1px solid #00d06e
 }
 .cont-foot h3,.social-l h3{
