@@ -132,6 +132,10 @@ img{
     background:var(--backg-dark);
     color:var(--backgd-text)
 }
+.site-header .grid-2 {
+    grid-template-columns: repeat( auto-fit, minmax(112px, 1fr) );
+    grid-gap: 12px;
+}
 .topn-b{
     margin-bottom:8px;
     border-bottom:1px solid #eee
