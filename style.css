@@ -285,7 +285,7 @@ a:active,a:hover{
     display:table;
     table-layout:fixed
 }
-.clear:after,.entry-content:after,.site-content:after,.site-footer:after,{
+.clear:after,.entry-content:after,.site-content:after,.site-footer:after{
     clear:both
 }
 .has-text-align-center{
