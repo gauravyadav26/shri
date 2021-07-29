@@ -166,9 +166,8 @@ img{
 }
 #grid-3{
     border-radius:16px;
-    margin-top:-120px;
+    margin-top:-124px;
     padding:24px;
-    text-align:center;
     align-items:center;
     grid-gap:20px
 }
@@ -278,8 +277,6 @@ a:active,a:hover{
     text-transform:uppercase
 }
 .appnt{
-    float:right;
-    height:48px;
     margin:20px 0;
     padding:4px;
     background:var(--backg-dark)
