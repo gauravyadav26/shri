@@ -280,12 +280,12 @@ a:active,a:hover{
     margin:0 0 1.5em;
     overflow:hidden
 }
-.clear:after,.clear:before,.entry-content:after,.entry-content:before,.site-content:after,.site-content:before,.site-footer:after,.site-footer:before{
+.clear:after,.clear:before,.site-content:after,.site-content:before,.site-footer:after,.site-footer:before{
     content:"";
     display:table;
     table-layout:fixed
 }
-.clear:after,.entry-content:after,.site-content:after,.site-footer:after{
+.clear:after,.site-content:after,.site-footer:after{
     clear:both
 }
 .has-text-align-center{
