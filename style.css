@@ -218,14 +218,6 @@ img{
 .cont-foot p{
     margin:12px 0
 }
-#comments,#llc_comments #respond,.comment{
-    margin:10px auto;
-    background:#fff;
-    padding:12px
-}
-.comment-form-author,.comment-form-email{
-    overflow:hidden
-}
 @media (min-width:786px){
     .container,.h-cont{
         max-width:var(--width)
@@ -288,12 +280,12 @@ a:active,a:hover{
     margin:0 0 1.5em;
     overflow:hidden
 }
-.clear:after,.clear:before,.comment-content:after,.comment-content:before,.entry-content:after,.entry-content:before,.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{
+.clear:after,.clear:before,.entry-content:after,.entry-content:before,.site-content:after,.site-content:before,.site-footer:after,.site-footer:before{
     content:"";
     display:table;
     table-layout:fixed
 }
-.clear:after,.comment-content:after,.entry-content:after,.site-content:after,.site-footer:after,.site-header:after{
+.clear:after,.entry-content:after,.site-content:after,.site-footer:after,{
     clear:both
 }
 .has-text-align-center{
